@@ -1,6 +1,6 @@
 #!/bin/sh
 
-family=SourceCodePro
+family=SourceCodeLow
 weights='Black Bold ExtraLight Light Medium Regular Semibold'
 
 # clean existing build artifacts
