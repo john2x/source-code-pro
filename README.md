@@ -1,20 +1,17 @@
-# Source Code Pro
+# Source Code Low
 
-Source Code Pro is a set of OpenType fonts that have been designed to work well
-in user interface (UI) environments. In addition to a functional OpenType font, this open
-source project provides all of the source files that were used to build this OpenType font
-by using the AFDKO makeotf tool.
+This is a fork of Adobe's [*Source Code Pro*][pro] font, with the line-height reduced
+to 90% of its original value. This allows more lines of code to be displayed on a
+screen while still maintaining great readability. Useful for developers who prefer
+(or are forced) to work with smaller windows/screens.
 
-## Download font binaries (OTF and TTF files)
+> Source Code Pro is a set of OpenType fonts that have been designed to work well
+> in user interface (UI) environments. In addition to a functional OpenType font, this open
+> source project provides all of the source files that were used to build this OpenType font
+> by using the AFDKO makeotf tool.
 
-The font binaries are not part of the repository. They can be
-[downloaded from SourceForge here](https://sourceforge.net/projects/sourcecodepro.adobe/files/).
+[pro]: https://github.com/adobe/source-code-pro
 
-## Installation instructions
-
-* [Mac OS X](http://support.apple.com/kb/HT2509)
-* [Windows](http://windows.microsoft.com/en-us/windows-vista/install-or-uninstall-fonts)
-* [Linux/Unix-based systems](https://github.com/adobe/source-code-pro/issues/17#issuecomment-8967116)
 
 ## Building from source
 
@@ -46,11 +43,4 @@ It builds all OTFs and TTFs, and can be executed by typing:
 ```sh
 $ ./build.sh
 ```
-
-## Getting Involved
-
-Send suggestions for changes to the Source Code OpenType font project maintainer,
-phunt@adobe.com, for consideration.
-
-
 
