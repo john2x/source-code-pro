@@ -25,8 +25,8 @@ table OS/2 {
 	TypoLineGap 0;		# Must be zero for cross-platform consistency
 	winAscent 885;		# Must be the same on all fonts for cross-weight consistency
 	winDescent 273;		# Must be the same on all fonts for cross-weight consistency
-	XHeight 432;
-	CapHeight 594;
+	XHeight 480;
+	CapHeight 660;
 	WeightClass 400;	# Normal (Regular)
 	WidthClass 5;		# Medium (normal)
 	Vendor "ADBE";
